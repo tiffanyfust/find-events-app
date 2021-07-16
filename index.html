@@ -17,37 +17,36 @@
         <div class="logo">
             <h1>find<span>(events)</span></h1>
         </div>
-        <div class="wrapper header">
-            <h2 class="formHeader">Where are you going?</h2>
-            <form class="gridContainer" action="submit">
-                <label for="city">City:</label>
-                <input type="text" placeholder="city" class="city" id="city" required>
-                <label for="genre">Type of Event: <span>(optional)</span></label>
-                <input type="text" placeholder="Sports, Music, Comedy..." class="genre" id="genre">
-                <label for="date" class="startDateLabel">Start Date:</label>
-                <input type="date" class="startDate" id="startDate" required>
-                <label for="date" class="endDateLabel">End Date:</label>
-                <input type="date" class="endDate" id="endDate" required>
-                <button type="submit" value="Submit">Find Events</button>
-            </form>
+        <div class="wrapper">
+            <div class="header">
+                <h2 class="formHeader">Where are you going?</h2>
+                <form class="gridContainer" action="submit">
+                    <label for="city">City:</label>
+                    <input type="text" placeholder="city" class="city" id="city" required>
+                    <label for="genre">Type of Event: <span>(optional)</span></label>
+                    <input type="text" placeholder="Sports, Music, Comedy..." class="genre" id="genre">
+                    <label for="date" class="startDateLabel">Start Date:</label>
+                    <input type="date" class="startDate" id="startDate" required>
+                    <label for="date" class="endDateLabel">End Date:</label>
+                    <input type="date" class="endDate" id="endDate" required>
+                    <button type="submit" value="Submit">Find Events</button>
+                </form>
+            </div>
         </div>
     </header>
 
-
-
-    <section class="wrapper results" id="results">
-        <h2 class="resultsHeader">your results</h2>
-        <div class="eventContainer wrapper">
-            <ul class="events"></ul>
-        </div>
-    </section>
-
-
-
+    <main>
+        <section class="wrapper results" id="results">
+            <h2 class="resultsHeader">your results</h2>
+            <div class="eventContainer wrapper">
+                <ul class="events"></ul>
+            </div>
+        </section>
+    </main>
+    <footer><a target="_blank" href="https://junocollege.com/">Created at Juno College</a></footer>
     <script src="./project2.js"></script>
 
-
 </body>
-<footer><a target="_blank" href="https://junocollege.com/">Created at Juno College</a></footer>
+
 
 </html>
